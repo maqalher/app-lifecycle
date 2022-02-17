@@ -1,0 +1,12 @@
+crear componente pagina1
+  ng g c pages/pagina1 --skip-Tests -is
+
+
+  ng g c components/muestraNombre --skip-Tests -is
+
+app.module
+  import { FormsModule } from '@angular/forms';
+  imports: [
+    BrowserModule,
+    FormsModule
+  ],
